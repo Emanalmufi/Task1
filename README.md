@@ -1,4 +1,5 @@
 # Task1 
+```
 <?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -66,7 +67,8 @@
         </script>
     </body>
 </html>
----------------------------------------------------------
+```
+##ForESP32
 Steps:
 1- Plug the ESP32 to your PC or laptob by using micro cable.
 2- Go to Tools > Board > Boards Manager > from the search bar write "esp32" > click on install.
@@ -74,7 +76,8 @@ Steps:
 4- Go to Tools > Port and select a COM port available.
 5- write the following code in arduion editor :
 
-/*
+/* 
+```
   Blink
 
   Turns an LED on for one second, then off for one second, repeatedly.
@@ -111,5 +114,5 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   delay(1000);                       // wait for a second
 }
-
+```
 6- Press the upload button
